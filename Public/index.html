@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Aulas Instrumentos</title>
+    <link rel="stylesheet" href="Style/style.css">
+</head>
+<body>
+    <h1>Se inscreva para Aulas!</h1>
+    <form action="<?php echo __DIR__ . '../Processing/DataProcessing.php'; ?>" method="post">
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" id="nome">
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email">
+        <label for="telefone">Telefone:</label>
+        <input type="text" name="telefone" id="telefone">
+        <label for="instrumento">Instrumento:</label>
+        <select name="instrumento" id="instrumento">
+            <option value="violao">Violão</option>
+            <option value="guitarra">Guitarra</option>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
