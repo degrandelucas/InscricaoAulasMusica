@@ -1,0 +1,1 @@
+<h1>Parabéns <?php echo $_GET['nome']?>, você se inscreveu para as aulas de <?php echo $_GET['instrumento']?></h1>
